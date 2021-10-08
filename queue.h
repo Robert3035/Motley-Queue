@@ -13,7 +13,7 @@ class queue{
     }
     int ppop(){
       //get last index
-      int first = a[size - (size - 1)];
+      int first = a[0];
       reservepop(size - 1);
       return first;
     }
